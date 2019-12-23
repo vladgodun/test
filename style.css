@@ -1,0 +1,255 @@
+
+html,body{
+   
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.container {
+  max-width: 1266px;
+  margin: auto;
+    
+    
+    }
+.main-header{
+     
+ display: flex;  
+ justify-content: space-between;
+ align-items: center; 
+ font-size: 14px;
+ font-family: 'Sofia W01SC Medium' , 'fallback-font';
+ 
+ 
+}
+
+.main-navigation ul{
+  text-align: right;
+  
+  
+}
+.main-navigation ul li{
+  padding: 5px 10px;
+  display: inline-block;
+  
+  
+}
+  
+  
+
+ /* .text{
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 56px; /*размер шрифта*/
+
+  
+
+ /* .text{
+    height: 130px;
+    width: 78px;
+    
+  }
+
+  .text-name{
+    
+  }
+ /* .container{
+    min-width: 200px;
+  }*/
+  .text-new{
+    margin-left: 130px;
+    
+    max-width: 850px;
+    font-family:'Sofia W01SC Semi Bold' , 'fallback-font';
+    font-size:  70px; 
+    margin-bottom: 80px;
+  }
+
+  .conteiner-information{
+    padding-top: 109px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    max-width: 1006px;
+    margin-bottom: 113px;
+    font-family: 'Sofia W01SC Medium' , 'fallback-font';
+    
+  }
+
+  h1{
+    font-family: 'Sofia W01SC Bold' , 'fallback-font';
+    font-size: 36px;
+  }
+
+ /* p{
+    font-size: 16px;
+  }*/
+  .heading{
+    font-family: 'Sofia W01SC Regular' , 'fallback-font';
+    font-size: 16px;
+    max-width: 240px;
+    
+  }
+  .heading-center{
+    font-family: 'Sofia W01SC Regular' , 'fallback-font';
+    font-size: 16px;
+    
+    max-width: 249px;
+  }
+
+  .heading-centere{
+    font-family: 'Sofia W01SC Regular' , 'fallback-font';
+    font-size: 16px;
+    max-width: 270px;
+  }
+
+  .write-comment{
+    padding-top: 135px;
+    background-image: url('Rectangle 20.png');
+    color: white;
+    font-size: 55px;
+    
+    
+  }
+  .txt{
+    margin-left: 130px;
+    margin-bottom: 113px;
+    
+  }
+  .txt::after{
+    content: '';
+    display: block;
+    width: 73px;
+    height: 7px; 
+    background: #f9d10d;
+    margin-top: 20px;
+
+
+  }
+
+  .form{
+    margin-right: 130px;
+    
+    
+    
+    
+  }
+
+  .photo{
+    background-image: url('Rectangle 32.png');
+  }
+.txt{
+  font-family: 'Sofia W01SC Bold' , 'fallback-font';
+  font-size: 55px;
+}
+  .qwer{
+    
+    margin-left: 130px;
+    margin-bottom: 243px;
+  }
+  .line{
+    content: '';
+    display: block;
+    width: 1266px;
+    height: 1px; 
+    background: #333336;
+    margin-top: 20px;
+  }
+
+  .footer-container{
+    display: flex;
+    
+    
+    
+  }
+/*input[type="text"]{
+  width: 594px;
+  height: 59px;
+  margin-bottom: 16px;
+}
+
+
+input[type="submit"]{
+  margin-bottom: 16px;
+  font-size: 16px;
+}*/
+
+.form textarea{
+  background-image: url('Rectangle 20.png');
+  width: 593px;
+  height: 53px;
+  outline: 1px solid  #60e3a1;
+  padding-top:17px;
+  padding-left: 22px;
+  resize: none;
+  
+  
+    
+}
+.form-comment textarea{
+  background-image: url('Rectangle 20.png');
+  width: 593px;
+  height: 152px;
+  outline: 1px solid  #60e3a1;
+  padding-top: 17px;
+  padding-left: 21px;
+  resize: none;
+  
+  
+}
+textarea::placeholder{
+  color:#60e3a1;
+}
+
+textarea title{
+ 
+  
+}
+
+.send{
+
+  
+}
+input[type="submit"]{
+  padding: 20px 25px;
+  border: 1px solid #60e3a1;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  color: #1d1e25;
+  text-decoration: none;
+}
+  .footer-q{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+.footer{
+  
+  font-family: 'Sofia W01SC Regular' , 'fallback-font';
+  font-size: 16px;
+  margin-top: 31px;
+  line-height: 2em;
+  width: 130px;
+}
+.footer-right{
+  margin-top: 45px;
+  flex-direction: row;
+  font-family: 'Sofia W01SC Regular' , 'fallback-font';
+  font-size: 13px;
+  color:#353743;
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+  
